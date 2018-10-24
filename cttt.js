@@ -46,3 +46,6 @@ rl.question('Start a new game? [Y/N]', (answer) => {
     console.log('Not sure what you want me to do here.');
   }
 })
+
+//Win check function (should be ran as while loop condition and while no win, keep prompting for user response)
+//Make move function (should be ran inside while loop and continue to prompt players what square they want to place x|o in)
